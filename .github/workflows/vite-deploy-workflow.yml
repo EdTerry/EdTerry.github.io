@@ -37,15 +37,18 @@ jobs:
           cache: 'npm'
       - name: Install dependencies
         run: npm install
+        working-directory: ./EdTerry.github.io/client
       - name: Build
         run: npm run build
+        working-directory: ./EdTerry.github.io/client
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload dist repository
-          path: './dist'
+          name: dist
+          path: './EdTerry.github.io/client/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
