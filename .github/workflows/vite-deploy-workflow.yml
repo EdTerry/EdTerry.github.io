@@ -48,7 +48,7 @@ jobs:
         with:
           # Upload dist repository
           name: dist
-          path: 'client/dist'
+          path: './client/dist'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
