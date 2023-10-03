@@ -3,9 +3,14 @@
   padding: 0;
 }
 
+.button-container {
+  width:100%; 
+  text-align:center;
+}
+
 .container {
   margin: 0 auto;
-  padding: 0;
+  padding: 10px;
   
   align-items: center;
   display: flex;
@@ -15,6 +20,7 @@
 .header-box { 
   align-items: center;
   display: flex;
+  
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -22,24 +28,38 @@
   margin: 8px;
 }
 
+.header-pic {
+  flex: 1 1 auto;
+
+  text-align: center;
+  align-content: stretch;
+}
+
 .header-summary {
+  flex: 1 1 auto;
+  
   align-items: center;
-  padding: 14px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
 }
 
 .summary-box {
-  width: 90%;
+  width: 95%;
   background-color: #61dafbaa;
-  padding: 20px;
 }
 
 .summary-box button {
   margin: 8px;
 }
 
+.summary-box p {
+  padding: 14px;
+}
+
 .projects-box {
   padding: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .projects-box h2 {
@@ -49,7 +69,7 @@
 .about-me {
   background-color: #61dafbaa;
   padding: 20px;
-  width: 90%;
+  width: 100%;
 }
 
 .about-me p {
@@ -67,7 +87,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
-  border-radius: 25%;
+  border-radius: 50%;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #64ffc1aa);

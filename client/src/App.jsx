@@ -14,30 +14,35 @@ function App() {
     <>
     <div className="container">
       <div className="header-box">
-        <div>
+        <div className="header-pic">
             <img src={headshotPhoto} className="profilePicture logo" alt="Edward!" />
         </div>
         <div className="header-summary">
           <h2>Hi, I'm <strong>Edward Terry</strong></h2>
-          <p>Software Engineer II, BetterCloud</p>
+          <p><strong>Software Engineer II, BetterCloud</strong></p>
           <p>Bachelor's in Computer Science, <strong>Florida International University</strong></p>
-          <button onClick={handleDownloadClick}>View My Resume</button>
-          <button onClick={
-              () => { window.location.href="https://github.com/EdTerry"; }
-          }>            
-            My GitHub
-          </button>
+          <div className='button-container'>
+            <button onClick={handleDownloadClick}>View My Resume</button>
+            <button onClick={
+                () => { window.location.href="https://github.com/EdTerry"; }
+            }>            
+              My GitHub
+            </button>
+          </div>
         </div>
       </div>
       <div className="summary-box">
-        <p>
-          I am a versatile <strong>Full-Stack Software Engineer</strong> with expertise in developing a wide range of software solutions, encompassing front-end, server-side, and systems-level applications. My proficiency extends to various technologies, including:
-        </p>
-      
+        <div>
+          <p>
+            I am a versatile <strong>Full-Stack Software Engineer</strong> with expertise in developing a wide range of software solutions, encompassing front-end, server-side, and systems-level applications. My proficiency extends to various technologies, including:
+          </p>
+        </div>
+        <div style={{width: '100%', textAlign: 'center'}}>
           <button>Java</button>
           <button>React</button>
           <button>PHP</button>
           <button>C#</button>
+        </div>
       </div>
       <div className="projects-box">
         <h2>Personal Projects</h2>
