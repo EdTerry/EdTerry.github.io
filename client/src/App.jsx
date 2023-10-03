@@ -32,12 +32,10 @@ function App() {
         </div>
       </div>
       <div className="summary-box">
-        <div>
           <p>
             I am a versatile <strong>Full-Stack Software Engineer</strong> with expertise in developing a wide range of software solutions, encompassing front-end, server-side, and systems-level applications. My proficiency extends to various technologies, including:
           </p>
-        </div>
-        <div style={{width: '100%', textAlign: 'center'}}>
+        <div style={{width: '100%', textAlign: 'center', marginBottom: '14px'}}>
           <button>Java</button>
           <button>React</button>
           <button>PHP</button>

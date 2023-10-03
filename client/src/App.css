@@ -45,12 +45,14 @@
 }
 
 .summary-box {
-  width: 95%;
+  width: 100%;
+  
+
   background-color: #61dafbaa;
 }
 
 .summary-box button {
-  margin: 8px;
+  margin: 14px;
 }
 
 .summary-box p {
@@ -58,17 +60,18 @@
 }
 
 .projects-box {
-  padding: 20px;
+  background-color: #61dafb7e;
+  
   width: 100%;
 }
 
 .projects-box h2 {
+  margin-top: 0;
   padding: 14px;
 }
 
 .about-me {
   background-color: #61dafbaa;
-  padding: 20px;
   width: 100%;
 }
 
@@ -78,6 +81,7 @@
 }
 
 .about-me h2 {
+  margin-top: 14px;
   padding-left: 14px;
   padding-right: 14px;
 }
@@ -90,7 +94,7 @@
   border-radius: 50%;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #64ffc1aa);
+  filter: drop-shadow(0 0 2em #ddfff1f3);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
