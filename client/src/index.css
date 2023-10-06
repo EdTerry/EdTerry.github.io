@@ -7,6 +7,12 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,88,121,1) 40%, rgba(1,159,191,1) 100%);
+  background: -webkit-linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,88,121,1) 40%, rgba(1,159,191,1) 100%);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,88,121,1) 40%, rgba(1,159,191,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#019fbf",GradientType=1);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -43,7 +49,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #ff911b;
   cursor: pointer;
   transition: border-color 0.25s;
 }

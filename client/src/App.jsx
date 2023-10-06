@@ -18,7 +18,7 @@ function App() {
             <img src={headshotPhoto} className="profilePicture logo" alt="Edward!" />
         </div>
         <div className="header-summary">
-          <h2>Hi, I'm <strong>Edward Terry</strong></h2>
+          <h2>Hi, I'm <strong className='my-name'>Edward Terry</strong></h2>
           <p><strong>Software Engineer II, BetterCloud</strong></p>
           <p>Bachelor's in Computer Science, <strong>Florida International University</strong></p>
           <div className='button-container'>
@@ -37,8 +37,15 @@ function App() {
           </p>
         <div style={{width: '100%', textAlign: 'center', marginBottom: '14px'}}>
           <button>Java</button>
+          <button>REST APIs</button>
+          <button>Angular</button>
           <button>React</button>
-          <button>PHP</button>
+          <button>TypeScript/JavaScript</button>
+          <button>MySQL</button>
+          <button>Apache Kafka</button>
+          <button>Redis</button>
+          <button>Elasticsearch</button>
+          <button>GCP/GKE</button>
           <button>C#</button>
         </div>
       </div>
