@@ -13,6 +13,9 @@
   background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,88,121,1) 40%, rgba(1,159,191,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#019fbf",GradientType=1);
 
+  background-size: cover;
+  background-attachment: fixed;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
