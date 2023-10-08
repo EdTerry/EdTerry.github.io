@@ -13,6 +13,7 @@
 
 .button-container button {
   background-color: #ff911b;
+  -webkit-background-color: #ff911b;
 }
 
 .container {
