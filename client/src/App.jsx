@@ -37,6 +37,7 @@ function App() {
           </p>
         <div style={{width: '100%', textAlign: 'center', marginBottom: '14px'}}>
           <button>Java</button>
+          <button>Spring Boot</button>
           <button>REST APIs</button>
           <button>Angular</button>
           <button>React</button>
