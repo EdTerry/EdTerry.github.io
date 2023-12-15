@@ -64,9 +64,9 @@ function App() {
 
         <p>In my professional journey, I've had some exciting roles. At Wells Fargo, I played a key role in enhancing trade processing systems, implementing efficient solutions that streamlined operations. I also delved into cloud technologies like Google Kubernetes Engine to ensure robust and scalable deployments.</p>
 
-        <p>At BetterCloud, I worked on creating microservices that provide users with easy access to data from various sources. My focus is on the practical implementation of these services to deliver seamless experiences to our customers.</p>
+        <p>Formerly at BetterCloud, I worked on creating microservices that provide users with easy access to data from various sources. My focus is on the practical implementation of these services to deliver seamless experiences to our customers.</p>
 
-        <p>At Telmai, as a backend software engineer, I contribute to enhancing our data observability platform within a unified engineering team. My role involves addressing data quality, scalability, and security challenges, fostering collaboration, and ensuring a high standard of software excellence across the organization.</p>
+        <p>Currently at Telmai, I work as a backend software engineer, contributing to the improvement of our data observability platform within our collaborative engineering team. My responsibilities include addressing challenges in data quality, scalability, and security, fostering teamwork, and maintaining a high standard of software quality.</p>
 
         <p>In addition to my work, I enjoy personal projects like the Ticket Rescue Ticket Scanner. This app simplifies handling Florida Traffic Citations using ReactJS, Node, and other cool tech.</p>
 
