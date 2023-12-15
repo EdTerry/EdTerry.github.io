@@ -19,7 +19,7 @@ function App() {
         </div>
         <div className="header-summary">
           <h2>Hi, I'm <strong className='my-name'>Edward Terry</strong></h2>
-          <p><strong>Software Engineer II, BetterCloud</strong></p>
+          <p><strong>Backend Software Engineer, Telm.AI</strong></p>
           <p>Bachelor's in Computer Science, <strong>Florida International University</strong></p>
           <div className='button-container'>
             <button onClick={handleDownloadClick}>View My Resume</button>
@@ -53,9 +53,9 @@ function App() {
       <div className="projects-box">
         <h2>Personal Projects</h2>
         <ul>
-          <li>Synergy</li>
-          <li>TicketRescue</li>
-          <li>Much more!</li>
+          <li><a href="https://store.steampowered.com/app/17520/Synergy/">Synergy</a> - Synergy is a cooperative mod for Half-Life 2, enabling players to embark on the singleplayer storylines of both Half-Life 2 and its sequels collaboratively. Extensive efforts were dedicated to improving AI, netcode, and overall player experience to ensure an enjoyable cooperative gaming environment.</li>
+          <li>TicketRescue - TicketRescue is a React.JS-based project developed to meet the needs of a client seeking a solution for enabling prospective customers to effortlessly scan Florida Traffic Citations. The system dynamically populates paperwork, resulting in a significant reduction in operational overhead.</li>
+          <li>StockSpyder - StockSpyder is a Python-based multi-threaded web application developed with Flux, ExpressJS, and BeautifulSoup. Its primary function is to scrape stocks data from diverse sources that lack dedicated APIs but permit web scraping. I utilized this tool for personal research purposes, aiming to deepen my understanding of web scraping methodologies.</li>
         </ul>
       </div>
       <div className="about-me">
@@ -66,7 +66,7 @@ function App() {
 
         <p>Formerly at BetterCloud, I worked on creating microservices that provide users with easy access to data from various sources. My focus is on the practical implementation of these services to deliver seamless experiences to our customers.</p>
 
-        <p>Currently at Telmai, I work as a backend software engineer, contributing to the improvement of our data observability platform within our collaborative engineering team. My responsibilities include addressing challenges in data quality, scalability, and security, fostering teamwork, and maintaining a high standard of software quality.</p>
+        <p>Currently at Telm.AI, I work as a backend software engineer, contributing to the improvement of our data observability platform within our collaborative engineering team. My responsibilities include addressing challenges in data quality, scalability, and security, fostering teamwork, and maintaining a high standard of software quality.</p>
 
         <p>In addition to my work, I enjoy personal projects like the Ticket Rescue Ticket Scanner. This app simplifies handling Florida Traffic Citations using ReactJS, Node, and other cool tech.</p>
 
