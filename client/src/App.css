@@ -89,6 +89,10 @@
   padding: 14px;
 }
 
+.projects-list li {
+  margin-bottom: 8px; /* Adjust the value as needed */
+}
+
 .about-me {
   background-color: rgba(2, 0, 36, 0.1);
   margin-bottom:20px;

@@ -52,7 +52,7 @@ function App() {
       </div>
       <div className="projects-box">
         <h2>Personal Projects</h2>
-        <ul>
+        <ul className="projects-list">
           <li><a href="https://store.steampowered.com/app/17520/Synergy/">Synergy</a> - Synergy is a cooperative mod for Half-Life 2, enabling players to embark on the singleplayer storylines of both Half-Life 2 and its sequels collaboratively. Extensive efforts were dedicated to improving AI, netcode, and overall player experience to ensure an enjoyable cooperative gaming environment.</li>
           <li>TicketRescue - TicketRescue is a React.JS-based project developed to meet the needs of a client seeking a solution for enabling prospective customers to effortlessly scan Florida Traffic Citations. The system dynamically populates paperwork, resulting in a significant reduction in operational overhead.</li>
           <li>StockSpyder - StockSpyder is a Python-based multi-threaded web application developed with Flux, ExpressJS, and BeautifulSoup. Its primary function is to scrape stocks data from diverse sources that lack dedicated APIs but permit web scraping. I utilized this tool for personal research purposes, aiming to deepen my understanding of web scraping methodologies.</li>
